@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-published: false
+published: true
 ---
 
 This is a Jekyll theme. You can find more infomation at [Jekyll theme](https://jekyllrb.com/docs/themes/).
