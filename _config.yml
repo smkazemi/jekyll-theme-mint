@@ -13,7 +13,7 @@ github_username: aidewoode
 # google_analytics:
 # disqus_shortname:
 
-blog_theme: auto
+blog_theme: dark
 
 markdown: kramdown
 
