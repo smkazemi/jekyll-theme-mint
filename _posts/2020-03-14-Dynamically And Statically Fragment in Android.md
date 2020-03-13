@@ -20,7 +20,7 @@ no need do any changes on fragment class or it's layout, this is just for test.
 
 Put on activity's layout a fragment tag :
 
-![Mint]({{ '/images/fragmentTag.jpg' | absolute_url }})
+![Mint]({{ '/images/fragmentTag.png | absolute_url }})
 
 >Note : place your package name instead of *com.example.testkotlinapp* in name attribute
 
