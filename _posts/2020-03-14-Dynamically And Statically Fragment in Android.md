@@ -26,9 +26,9 @@ Put on activity's layout a fragment tag :
 
 Now you can see your fragment in ativity , no need to other codes
 
-## Dynamically
+# Dynamically
 
 If you want to show several layout in one activity, must implement a dynamically fragment
 
-# steps :
+## steps :
 
