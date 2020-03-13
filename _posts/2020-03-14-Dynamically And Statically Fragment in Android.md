@@ -4,15 +4,15 @@ layout: post
 
 There is two type of Fragment in andriod ; Dynamically And statically
 
-#Statically
+# Statically
 
 Use to show one fragment in an activity
 
-##steps :
+## steps :
 
 **1 - Create a fragment**
 
-From *New -> Frafment* create a blank fragment and named this *TestFragment* .
+From *New -> Fragment* create a blank fragment and named this *TestFragment* .
 
 no need do any changes on fragment class or it's layout, this is just for test.
 
