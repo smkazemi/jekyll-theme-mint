@@ -34,7 +34,7 @@ In this case we implement fragment by code, without use ``<fragment>`` tag in xm
 
 **1- Specify space in activity for holding fragment**
 
-In activity you must Assign a layout holder for holding fragment view e.g. RelativeView and it can be place any where in activuty layout.
+In activity layout you must Assign a layout holder for holding fragment view e.g. RelativeView and it can be place any where in activuty layout.
 
 **2- Attach fragment by code to its view holder**
 
