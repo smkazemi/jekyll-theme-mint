@@ -28,7 +28,27 @@ Now you can see your fragment in ativity , no need to other codes
 
 # Dynamically
 
-If you want to show several layout in one activity, must implement a dynamically fragment
+In this case we implement fragment by code, without use ``<fragment>`` tag in xml layout, advantage of this is being able to remove the fragment at runtime.
 
 ## steps :
 
+**1- Specify space in activity for holding fragment**
+
+In activity you must Assign a layout holder for holding fragment view e.g. RelativeView and it can be place any where in activuty layout.
+
+**2- Attach fragment by code to its view holder**
+
+First should create instance of fragment class then with fragment manager attach this to the view that is to contain fragment 
+For example assume `FragmentOne()` as fragment class and `LineatLayout1` as view that is contain it fragment
+
+```kotlin
+val firstFragment = FragmentOne()
+firstFragment.arguments = intent.extras
+val transaction = fragmentManager.beginTransaction()
+transaction.add(R.id.LinearLayout1, firstFragment)
+transaction.commit()
+```
+You can see also there is ability to send extra to the fragment class
+
+# Final Project
+[This project](https://github.com/smkazemi/Android-Simple-Exapmles/tree/master/FragmentExample) is a runnable android app that implemented statically and dynamically fragment in kotlin.
